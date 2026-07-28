@@ -1,31 +1,38 @@
 # SOC Simulator - Phishing Investigation
 
 ## Overview
+
 Investigação de um alerta de phishing utilizando Splunk em um ambiente simulado da TryHackMe.
 
 ## Alert Details
 
-Sender:
+**Sender:**  
 john@hatmakereurope.xyz
 
-Recipient:
+**Recipient:**  
 michael.ascot@tryhatme.com
 
-Attachment:
+**Attachment:**  
 ImportantInvoice-Febrary.zip
 
 ## Investigation
 
-Tool:
+**Tool:**  
 Splunk
 
-Queries:
+**Queries:**
 
+```spl
 index=* "john@hatmakereurope.xyz"
-**Objetivo:** Verificar eventos relacionados ao remetente.
+```
 
+Objetivo: Verificar eventos relacionados ao remetente.
+
+```spl
 index=* "ImportantInvoice-Febrary.zip"
-**Objetivo:** Identificar ocorrências do arquivo anexado nos logs.
+```
+
+Objetivo: Identificar ocorrências do arquivo anexado nos logs.
 
 ## Recommended Actions
 
