@@ -2,7 +2,7 @@
 
 ## Overview
 
-Investigação de um alerta de phishing utilizando Splunk em um ambiente simulado da TryHackMe.
+Investigação de um alerta de phishing utilizando Splunk em um ambiente simulado no TryHackMe.
 
 ## Alert Details
 
